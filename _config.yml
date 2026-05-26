@@ -4,27 +4,22 @@ title                    : "Ruihong Yin"
 title_separator          : "-"
 name                     : &name "Ruihong Yin"
 description              : &description "PhD Candidate in ECE at University of Minnesota. Research in domain-specific acceleration, hardware–software co-design, and physics-based Ising computing."
-url                      : "https://ruihongyin.github.io"  # ← change to your GitHub Pages URL
+url                      : "https://RuihongY.github.io"
 baseurl                  : ""
-repository               : "ruihongyin/ruihongyin.github.io"  # ← change to your GitHub repo
+repository               : "RuihongY/RuihongY.github.io"
 
-# SEO
-google_site_verification :
-bing_site_verification   :
-
-# Site Author — fills the left sidebar
+# Site Author
 author:
   name             : "Ruihong Yin"
-  avatar           : "images/profile.jpg"   # ← put your photo at images/profile.jpg
+  avatar           : "images/profile.jpg"
   bio              : "PhD Candidate, ECE<br>University of Minnesota"
   location         : "Minneapolis, MN"
-  employer         :
   email            : "yin00473@umn.edu"
   uri              :
-  googlescholar    :   # ← add your Google Scholar URL if you have one
-  github           :   # ← your GitHub username
+  googlescholar    :
+  github           : "RuihongY"
   linkedin         : "ruihong-yin"
-  orcid            :   # ← your ORCID if you have one
+  orcid            :
 
 # Reading Files
 include:
