@@ -5,7 +5,6 @@ category: conferences
 permalink: /publication/2025-esserc-cobi
 date: 2025-09-08
 venue: "IEEE European Solid-State Electronics Research Conference (ESSERC)"
-citation: "C. Li*, Y. Hong*, A. Vanasse, T. Islam, P. Kreye, X. Li, R. Yin, H. Lo, W. Moy, C. Kim. (2025). <i>ESSERC 2025</i>."
 authors: "C. Li*, Y. Hong*, A. Vanasse, T. Islam, P. Kreye, X. Li, R. Yin, H. Lo, W. Moy, C. Kim"
 ---
 
