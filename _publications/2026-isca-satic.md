@@ -5,7 +5,6 @@ category: conferences
 permalink: /publication/2026-isca-satic
 date: 2026-06-01
 venue: "International Symposium on Computer Architecture (ISCA)"
-citation: "A. Efe, H. Cilasun, A. Kumar, N. Prova, Z. Zeng, T. Islam, R. Yin, et al. (2026). <i>ISCA 2026</i>."
 authors: "A. Efe, H. Cilasun, A. Kumar, N. Prova, Z. Zeng, T. Islam, R. Yin, et al."
 ---
 
