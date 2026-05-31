@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Electrical and Computer Engineering at the **University of Minnesota**, advised by [Prof. Chris H. Kim](https://scholar.google.com/citations?user=...). My research sits at the intersection of **domain-specific hardware acceleration**, **physics-based computing**, and **software–hardware co-design**.
+I am a PhD candidate in Electrical and Computer Engineering at the **University of Minnesota**, advised by [Prof. Chris H. Kim](https://cse.umn.edu/ece/chris-kim). My research sits at the intersection of **domain-specific hardware acceleration**, **physics-based computing**, and **software–hardware co-design**.
 
 My current focus is on building Ising computing systems end-to-end: from full-custom mixed-signal chip design and tapeout (TSMC 16/28nm) to FPGA-based accelerators and system-level optimization frameworks that bridge the gap between large-scale combinatorial problems and capacity-constrained hardware.
 
