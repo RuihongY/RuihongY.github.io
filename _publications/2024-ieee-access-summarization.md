@@ -5,7 +5,6 @@ category: journals
 permalink: /publication/2024-ieee-access-summarization
 date: 2024-01-01
 venue: "IEEE Access"
-citation: "Z. Zeng, A. Kumar, A. Efe, R. Yin, et al. <i>IEEE Access</i>."
 authors: "Z. Zeng, A. Kumar, A. Efe, R. Yin, et al."
 ---
 
