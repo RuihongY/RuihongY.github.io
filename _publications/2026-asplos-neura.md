@@ -5,7 +5,6 @@ category: conferences
 permalink: /publication/2026-asplos-neura
 date: 2026-03-01
 venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
-citation: "C. Tan, M. Jiang, Y. Sun, R. Yin, et al. (2026). <i>ASPLOS 2026</i>."
 authors: "C. Tan, M. Jiang, Y. Sun, R. Yin, et al."
 ---
 
