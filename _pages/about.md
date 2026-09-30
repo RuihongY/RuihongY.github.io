@@ -26,8 +26,10 @@ Before Minnesota, I received my MS from the **University of Washington** and my 
 
 ## News
 
+- **2026** — Two papers accepted at ICCAD 2026, including my first-author paper on FPGA-ASIC co-design for capacity-constrained Ising chips
 - **Summer 2026** — Interning at NVIDIA, Westford MA (Tegra System Architecture)
-- **2026** — Paper accepted at ISCA 2026, ASPLOS 2026, and DATE 2026
+- **2026** — Papers accepted at ISCA 2026, ASPLOS 2026, and DATE 2026
+- **2026** — Journal papers published in *Scientific Reports* and *IEEE Access*
 - **2025** — Paper accepted at ESSERC 2025
 
 ---
