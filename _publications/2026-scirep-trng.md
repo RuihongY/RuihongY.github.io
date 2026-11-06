@@ -5,7 +5,8 @@ category: manuscripts
 permalink: /publication/2026-scirep-trng
 date: 2026-01-01
 venue: "Scientific Reports"
-authors: "Z. Xue*, R. Yin*, C. Li, Z. Wang, A. Efe, S. S. Sapatnekar, U. R. Karpuzcu, C. H. Kim (* equal contribution)"
+authors: "Z. Xue*, R. Yin*, C. Li, Z. Wang, A. Efe, S. S. Sapatnekar, U. R. Karpuzcu, C. H. Kim"
+equal_note: true
 ---
 
-Uses a 28nm coupled-oscillator CMOS Ising chip as a physical entropy source for hybrid true random number generation, targeting probabilistic compute applications. (Co-first author)
+Uses a 28nm coupled-oscillator CMOS Ising chip as a physical entropy source for hybrid true random number generation, targeting probabilistic compute applications.

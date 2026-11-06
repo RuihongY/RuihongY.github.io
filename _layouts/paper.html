@@ -1,0 +1,63 @@
+---
+---
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  {% include seo.html %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="alternate" type="application/atom+xml" href="{{ base_path }}/feed.xml" title="{{ site.title }} Feed">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/paper.css">
+  {% include head/custom.html %}
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <a class="brand" href="{{ base_path }}/">{{ site.author.name }}</a>
+      <nav aria-label="Main">
+        {% for link in site.data.navigation.main %}{% assign current = false %}{% if page.url == link.url or page.url == "/index.html" and link.url == "/" %}{% assign current = true %}{% endif %}<a href="{{ base_path }}{{ link.url }}"{% if current %} aria-current="page"{% endif %}>{{ link.title }}</a>{% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% if page.front %}
+    <section class="hero">
+      <div>
+        <h1>{{ page.heading | default: page.title }}</h1>
+        <div class="lead">{% for line in page.lead %}<p>{{ line }}</p>{% endfor %}</div>
+        <ul class="contact">
+          <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+          <li><a href="{{ site.author.orcid }}">ORCID</a></li>
+          <li>{{ site.author.location }}</li>
+        </ul>
+      </div>
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}" width="400" height="400" fetchpriority="high">
+    </section>
+    {% elsif page.collection == "publications" %}
+    <p class="eyebrow">{% if page.category == "conferences" %}Conference paper{% else %}Journal article{% endif %}</p>
+    <h1 class="h1--paper">{{ page.title }}</h1>
+    <p class="citation">{{ page.authors | append: "." | replace: "..", "." | replace: "R. Yin", "<b>R. Yin</b>" }}</p>
+    <p class="citation"><i>{{ page.venue }}</i> ({{ page.date | date: "%Y" }}).</p>
+    {% else %}
+    <h1>{{ page.heading | default: page.title }}</h1>
+    {% endif %}
+
+    <article class="content">
+      {{ content }}
+    </article>
+  </main>
+
+  <footer class="colophon">
+    <div class="wrap">
+      {% if page.equal_note %}<p>* Equal contribution.</p>{% endif %}
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+    </div>
+  </footer>
+</body>
+</html>

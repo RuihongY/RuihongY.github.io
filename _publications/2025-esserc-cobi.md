@@ -6,6 +6,7 @@ permalink: /publication/2025-esserc-cobi
 date: 2025-09-08
 venue: "IEEE European Solid-State Electronics Research Conference (ESSERC)"
 authors: "C. Li*, Y. Hong*, A. Vanasse, T. Islam, P. Kreye, X. Li, R. Yin, H. Lo, W. Moy, C. H. Kim"
+equal_note: true
 ---
 
 A silicon Ising chip featuring a fully-connected annealing core, an on-chip Hamiltonian engine, and an integrated RISC-V processor for gradient-guided search, enabling solution of combinatorial optimization problems with 2,500+ spins.

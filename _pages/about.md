@@ -1,7 +1,12 @@
 ---
 permalink: /
 title: "About"
-author_profile: true
+heading: "Ruihong Yin"
+layout: paper
+front: true
+lead:
+  - "PhD Candidate in Electrical and Computer Engineering at the University of Minnesota"
+  - "VLSI Research Laboratory, advised by Prof. Chris H. Kim"
 redirect_from:
   - /about/
   - /about.html
@@ -13,8 +18,6 @@ My current focus is on building Ising computing systems end-to-end: from full-cu
 
 Before Minnesota, I received my MS from the **University of Washington** and my B.Eng from the **University of Liverpool**, both in Electrical and Computer Engineering. I have also interned at **NVIDIA** (Tegra System Architecture), **MediaTek** (ASIC Design), and **Infineon Technologies** (Digital IC Design).
 
----
-
 ## Research Interests
 
 - Physics-based Ising computing and combinatorial optimization
@@ -22,12 +25,12 @@ Before Minnesota, I received my MS from the **University of Washington** and my 
 - Software–hardware co-design for emerging computing paradigms
 - Mixed-signal VLSI and full-custom chip design
 
----
-
 ## News
 
-- **2026** — Two papers accepted at ICCAD 2026, including my first-author paper on FPGA-ASIC co-design for capacity-constrained Ising chips
-- **Summer 2026** — Interning at NVIDIA, Westford MA (Tegra System Architecture)
-- **2026** — Papers accepted at ISCA 2026, ASPLOS 2026, and DATE 2026
-- **2026** — Journal papers published in *Scientific Reports* and *IEEE Access*
-- **2025** — Paper accepted at ESSERC 2025
+| Date | Item |
+|---|---|
+| <span class="nowrap">2026</span> | Two papers accepted at ICCAD 2026, including my first-author paper on FPGA-ASIC co-design for capacity-constrained Ising chips |
+| <span class="nowrap">Summer 2026</span> | Interning at NVIDIA, Westford MA (Tegra System Architecture) |
+| <span class="nowrap">2026</span> | Papers accepted at ISCA 2026, ASPLOS 2026, and DATE 2026 |
+| <span class="nowrap">2026</span> | Journal papers published in *Scientific Reports* and *IEEE Access* |
+| <span class="nowrap">2025</span> | Paper accepted at ESSERC 2025 |
